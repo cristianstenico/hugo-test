@@ -1,0 +1,102 @@
+GoogleAnalytics = ""
+baseURL = "https://www.basketgardolo.it/"
+canonifyURLs = true
+enableRobotsTXT = true
+languageCode = "en-us"
+subtitle = "Travel theme for Hugo with Slider"
+theme = "hugo-travelify-theme"
+title = "Basket Gardolo"
+
+[Taxonomies]
+author = "author"
+categories = "categories"
+tags = "tags"
+
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10.0
+
+  [[menu.main]]
+  name = "contact"
+  url = "/contact/"
+  weight = 20.0
+
+  [[menu.main]]
+  name = "Contact2"
+  parent = "contact"
+  url = "/contact/"
+
+  [[menu.main]]
+  name = "Contact21"
+  parent = "Contact2"
+  url = "/contact/"
+  weight = 20.0
+
+  [[menu.main]]
+  name = "cOntact22"
+  parent = "Contact2"
+  url = "/contact/"
+  weight = 10.0
+
+  [[menu.main]]
+  name = "cOntact3"
+  parent = "contact"
+  url = "/contact/"
+
+[params]
+author = "nikimonikado"
+copyright = "Copyright"
+custom_css = []
+custom_js = []
+date_format = "02 January, 2006"
+disable_mathjax = true
+logo = "logo.png"
+site_description = "Travel theme for Hugo with Slider"
+title_in_logo = true
+
+  [params.privacy]
+  DisqusShortname = "nikimonikado"
+  enable = true
+  facebook_like = true
+
+  [params.share]
+  email = true
+  enable = true
+  facebook = true
+  googleplus = true
+  linkedin = true
+  twitter = true
+
+  [params.slider]
+  enable = true
+  manual = false
+  num_features = 6.0
+
+  [params.widgets]
+  archives = false
+  author = true
+  categories = true
+  mailchimp = true
+  mailchimpform = "//balaramadurai.us15.list-manage.com/subscribe/post?u=7f4183fa2fe7abe3dc9f4efad&amp;id=49a3dd3745"
+  recent_articles = true
+  search = true
+  tag_cloud = true
+  tags = true
+
+[social]
+email = "joe@example.com"
+facebook = "nikimonikado"
+flickr = "nikimonikado"
+github = "nikimonikado"
+googleplus = "nikimonikado"
+instagram = "nikimonikado"
+linkedin = "nikimonikado"
+pinterest = "nikimonikado"
+rss = "Needed"
+tumblr = "nikimonikado"
+twitter = "nikimonikado"
+vimeo = "nikimonikado"
+youtube = "nikimonikado"
